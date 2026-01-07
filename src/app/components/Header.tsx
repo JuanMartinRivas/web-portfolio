@@ -17,31 +17,31 @@ export default function Header() {
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="font-bold text-xl">Juan Martín Rivas</div>
-          
+
           {/* Desktop Navigation */}
           <div className="hidden md:flex gap-8">
-            <button 
+            <button
               onClick={() => scrollToSection('about')}
               className="hover:text-purple-600 transition-colors"
             >
               About Me
             </button>
-            <button 
-              onClick={() => scrollToSection('education')}
-              className="hover:text-purple-600 transition-colors"
-            >
-              Education
-            </button>
-            <button 
+            <button
               onClick={() => scrollToSection('projects')}
               className="hover:text-purple-600 transition-colors"
             >
               Projects
             </button>
+            <button
+              onClick={() => scrollToSection('education')}
+              className="hover:text-purple-600 transition-colors"
+            >
+              Education
+            </button>
           </div>
 
           {/* Mobile Menu Button */}
-          <button 
+          <button
             className="md:hidden"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
@@ -52,23 +52,23 @@ export default function Header() {
         {/* Mobile Navigation */}
         {isMenuOpen && (
           <div className="md:hidden mt-4 py-4 flex flex-col gap-4">
-            <button 
+            <button
               onClick={() => scrollToSection('about')}
               className="hover:text-purple-600 transition-colors text-left"
             >
               About Me
             </button>
-            <button 
-              onClick={() => scrollToSection('education')}
-              className="hover:text-purple-600 transition-colors text-left"
-            >
-              Education
-            </button>
-            <button 
+            <button
               onClick={() => scrollToSection('projects')}
               className="hover:text-purple-600 transition-colors text-left"
             >
               Projects
+            </button>
+            <button
+              onClick={() => scrollToSection('education')}
+              className="hover:text-purple-600 transition-colors text-left"
+            >
+              Education
             </button>
           </div>
         )}
