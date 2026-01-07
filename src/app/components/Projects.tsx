@@ -7,8 +7,8 @@ const projects = [
     title: "Oralik - Dentistry booking app",
     description: "Oralik is a mobile-first appointment booking app that separates professionals and patients, lets professionals set weekly availability ranges (like Calendly), and automatically generates 30-minute booking slots that patients can reserve. Built as a production-ready prototype to demonstrate reliable scheduling, role-based flows, and realtime syncing without shipping the source code.",
     technologies: ["React Native", "Expo", "Firebase"],
-    githubUrl: "https://github.com",
-    liveUrl: "https://example.com"
+    githubUrl: "https://github.com/JuanMartinRivas/portfolio",
+    liveUrl: "https://drive.google.com/file/d/1WiVmX_FiUjjrPlg-SKOabXrZi9nRZxe8/view?usp=sharing"
   },
   {
     title: "Calcudolar - Conversion app",
