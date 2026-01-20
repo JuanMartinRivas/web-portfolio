@@ -54,19 +54,19 @@ export default function Header() {
           <div className="md:hidden mt-4 py-4 flex flex-col gap-4">
             <button
               onClick={() => scrollToSection('about')}
-              className="hover:text-purple-600 transition-colors text-left"
+              className="hover:text-purple-600 transition-colors text-left cursor-pointer"
             >
               About Me
             </button>
             <button
               onClick={() => scrollToSection('projects')}
-              className="hover:text-purple-600 transition-colors text-left"
+              className="hover:text-purple-600 transition-colors text-left cursor-pointer"
             >
               Projects
             </button>
             <button
               onClick={() => scrollToSection('education')}
-              className="hover:text-purple-600 transition-colors text-left"
+              className="hover:text-purple-600 transition-colors text-left cursor-pointer"
             >
               Education
             </button>
