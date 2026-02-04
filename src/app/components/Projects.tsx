@@ -17,6 +17,13 @@ const projects = [
     githubUrl: "https://github.com/JuanMartinRivas/calcudolar",
     liveUrl: "https://calcudolar.vercel.app/"
   },
+  {
+    title: "Helicopteros VIP - On-demand helicopter booking (prototype)",
+    description: "Helicopteros VIP is a booking platform for helicopter rides — users browse helicopters & routes, view available slots, and book seats. The MVP focuses on reliable slot management, secure bookings, and a mobile-friendly UX.",
+    technologies: ["Next.js", "Firebase", "React", "TypeScript", "Vercel"],
+    githubUrl: "https://github.com/JuanMartinRivas/portfolio",
+    liveUrl: "https://helis-vip.vercel.app/"
+  },
 ];
 
 export default function Projects() {
